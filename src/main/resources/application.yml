@@ -10,7 +10,7 @@ spring:
     ansi:
       enabled: ALWAYS
   rabbitmq:
-    host: ${RABBIT_HOST:127.0.0.1}
-    password: ${RABBIT_PASSWORD:guest}
-    port: ${RABBIT_PORT:5672}
-    username: ${RABBIT_USERNAME:guest}
+    host: ${RABBITMQ_HOST:127.0.0.1}
+    password: ${RABBITMQ_PASSWORD:guest}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:guest}
